@@ -25,7 +25,7 @@ Variable | camelCase | $articlesWithAuthor | ~~$articles_with_author~~
 Collection | descriptive, plural | $activeUsers = User::active()->get() | ~~$active, $data~~
 Object | descriptive, singular | $activeUser = User::active()->first() | ~~$users, $obj~~
 Config and language files index | snake_case | articles_enabled | ~~ArticlesEnabled; articles-enabled~~
-View folders | singular kebab-case | user main-category | ~~users~~ ~~Users~~ ~~main_categories~~
+View folders | singular kebab-case | user, main-category | ~~users, Users, main_categories~~
 View | kebab-case | show-filtered.blade.php | ~~showFiltered.blade.php, show_filtered.blade.php~~
 Config | snake_case | google_calendar.php | ~~googleCalendar.php, google-calendar.php~~
 Contract (interface) | adjective or noun | AuthenticationInterface | ~~Authenticatable, IAuthentication~~
